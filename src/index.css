@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.header {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.aside-border {
+  border: 0.5px solid #d2d2d2;
+}
+.periode {
+  box-shadow: 0px 2px 3px #00000029;
+}
+.filter-periode {
+  box-shadow: 0px 2px 10px 1px #00000029;
+  position: absolute;
+  background: #ffffff;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+}
+.chart-periode {
+  height: 32px;
+  box-shadow: 0px 2px 3px #0000000d;
+  border: 1px solid #d7dae2;
+  border-radius: 2px;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 2px 6px #0000000a;
+  border: 0.5px solid #caced5;
+  border-radius: 2px;
+}
+.square-image-80 {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px 0px 0px 4px;
+}
+.square-image-60 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px 0px 0px 4px;
+}
+.top-sales-product {
+  background-color: #ffe7bd;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-right: 17px;
+}
+.sales-product {
+  border: 0.5px solid #c5c5c59c;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-right: 24px;
+}
+/* Calendar */
+.hide-date {
+  opacity: 0;
+  user-select: none;
+  cursor: default;
+}
+.selected-date {
+  background-color: #dcfff3;
+  color: #39b24b;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.tooltip {
+  width: 164px;
+  height: max-content;
+  box-shadow: 0px 2px 6px #31a4452e;
+  border: 0.5px solid #ffb24a;
+}
